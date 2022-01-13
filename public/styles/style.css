@@ -227,6 +227,10 @@ body::-webkit-scrollbar {
         'grid4';
     }
 
+    .showcase h1 {
+        font-size: 30px;
+    }
+
     h1 {
         font-size: 25px;
     }
