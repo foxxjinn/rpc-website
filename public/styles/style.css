@@ -74,9 +74,10 @@ h1 {
     grid-template-areas: 
         'grid1 grid2'
         'grid1 grid3'
-        'grid1 grid4';
+        'grid1 grid4'
+        'grid5 grid5';
     gap: 10px;
-    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
     grid-template-columns: 40% 30%;
 }
 
@@ -95,6 +96,7 @@ h1 {
 
 .grid-2 {
     color: white;
+    text-align: center;
     word-spacing: 0.4rem;
     grid-area: grid2;
     background: var(--primary-blue);
@@ -123,6 +125,14 @@ h1 {
 .grid-4 a {
     margin-top: 10px;
 
+}
+
+.grid-5 {
+    grid-area: grid5;
+    color: #333;
+    text-align: center;
+    background: url('../resources/bible2.webp');
+    background-size: cover;
 }
 
 footer {
@@ -198,7 +208,8 @@ body::-webkit-scrollbar {
         'grid1'
         'grid2'
         'grid3'
-        'grid4';
+        'grid4'
+        'grid5';
     }
   }
 
@@ -216,11 +227,6 @@ body::-webkit-scrollbar {
         grid-template-columns: 100%;
         grid-template-rows: auto;
         gap: 0;
-        grid-template-areas: 
-        'grid1'
-        'grid2'
-        'grid3'
-        'grid4';
     }
 
     .showcase h1 {
@@ -238,7 +244,6 @@ body::-webkit-scrollbar {
     .grid-1 {
         padding: 0;
         border-radius: 0;
-        background: var(--primary-blue
     }
 
     .grid-2 {
