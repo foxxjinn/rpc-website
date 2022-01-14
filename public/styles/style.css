@@ -136,10 +136,25 @@ h1 {
 }
 
 footer {
-    height: 100px;
+    height: 150px;
     width: 100%;
-    background: var(--white);
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg-youtube{
+    margin: 0 15px;
+    transition-duration: 0.3s;
+}
+
+.svg-twitter, .svg-facebook {
+    transition-duration: 0.3s;
+}
+
+.svg-youtube:hover, .svg-twitter:hover, .svg-facebook:hover {
+    filter: hue-rotate(90deg);
 }
 
 .btn-basic {
