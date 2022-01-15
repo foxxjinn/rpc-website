@@ -32,10 +32,8 @@ h1 {
 
 .showcase {
     background: var(--white);
-    height: 35vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
 .showcase-text{
@@ -44,7 +42,6 @@ h1 {
     font-size: 20px;
     color: var(--white);
     text-align: center;
-    padding-top: 30px;
 }
 
 .showcase-text h1 {
@@ -234,7 +231,6 @@ body::-webkit-scrollbar {
     }
 
     .showcase {
-        height: 400px;
         padding: 20px;
     }
 
